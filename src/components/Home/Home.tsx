@@ -16,7 +16,7 @@ function Home() {
             <img src={wideProfile} alt="Mitt bilde" id="wideProfile" />
             <h1>{t("home.welcome")}</h1>
             <p>
-                {t("home.welcomeParagraph")}
+                {t("home.welcomeParagraph")} <u>{t("home.someInterests")}</u>
                 <br />
                 &rarr; {t("home.interests")}
                 <br />

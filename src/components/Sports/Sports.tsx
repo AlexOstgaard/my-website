@@ -7,7 +7,7 @@ function Sports() {
 
 
     return (
-        <h1>{t("sports")}</h1>
+        <h4>{t("maintenance")}</h4>
     )
 }
 

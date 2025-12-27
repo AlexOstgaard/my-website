@@ -7,7 +7,7 @@ function Studies() {
     
     
     return (
-        <h1>{t("studies")}</h1>
+        <h4>{t("maintenance")}</h4>
     )
 }
 
