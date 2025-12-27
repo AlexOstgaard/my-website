@@ -4,7 +4,7 @@
 #### Intro
 The whole repo might seem very messy, so let me briefly explain how it works, based on my understanding of React and Vite. All the files and folders and basically the framework on which I am developing the webiste is pre-made. All the code I have written myself is within the 'src' folder, and mostly in the 'components' folder within that one. 
 
-Before you ask, yes, I have been using some AI to help me along the way. I am very new to TypeScript, so it is necessary for me. However, I make myself understand every line of code that I have written, even the lines that chatGPT suggested for me.
+Before you ask, yes, I have been using some AI to help me along the way. I am very new to TypeScript, so it is necessary for me. However, I make myself understand every line of code that I have written, even the lines that chatGPT suggested for me. By the way, it only really looks the way it should in Chrome (NOT SAFARI)!
 
 ___
 #### How to run the website locally
