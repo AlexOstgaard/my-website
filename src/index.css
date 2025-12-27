@@ -4,13 +4,20 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #303070;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --header-background: #181830;
+  --page-background: #303070;
+  --second-background: #242455;
+  --text-color: #D0D0F0;
+
+  background-color: var(--page-background);
+  color: var(--text-color);
+
 }
 
 

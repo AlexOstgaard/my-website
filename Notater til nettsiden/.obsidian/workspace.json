@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "fd7b7b2fdb53992a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2d394f205cc6929",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ddf8dd19a155b55",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2201125567bac3fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "43b30c7828e8569b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "974f645a0bad97de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Filutforsker"
+            }
+          },
+          {
+            "id": "9fc83e5ad329fbec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Søk"
+            }
+          },
+          {
+            "id": "69e34d85fc8498cd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "455f168725935fcb",
+    "type": "split",
+    "children": [
+      {
+        "id": "98c50f94ecc90f10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9588c6b1b5f75e5a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Lenker som fører til Welcome"
+            }
+          },
+          {
+            "id": "3fadd154a53ffd37",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "a7a39f2a8c891de4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6c329a16c2b1c8e9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Alle egenskaper"
+            }
+          },
+          {
+            "id": "e321f8e9ea353154",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Disposjon til Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Åpne hurtigåpner": false,
+      "graph:Åpne grafvisning": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Åpne dagens notat": false,
+      "templates:Sett inn mal": false,
+      "command-palette:Åpne kommandovelger": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2ddf8dd19a155b55",
+  "lastOpenFiles": [
+    "Oversikt over ALLE mapper og filer i React.md",
+    "Layout av hele driten.md",
+    "Tema.md",
+    "2025-12-23.md",
+    "Welcome.md",
+    "desktop.ini"
+  ]
+}

@@ -9,7 +9,6 @@ import Music from './components/Music/Music'
 import Contact from './components/Contact/Contact'
 
 
-
 function App() {
 
   return (
