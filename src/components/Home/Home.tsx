@@ -1,4 +1,4 @@
-import "./home.css"
+import "./Home.css"
 
 import wideProfile from "../../assets/pictures/wide.jpeg"
 
