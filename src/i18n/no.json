@@ -1,0 +1,21 @@
+{
+    "header": {
+        "home": "Forside",
+        "studies": "Studier",
+        "sports": "Sport",
+        "music": "Musikk",
+        "contact": "Kontakt meg"
+    },
+    
+    "home": {
+        "welcome": "Velkommen til min nettside!",
+        "welcomeParagraph": "Hei! Jeg heter Alexander, og du har funnet nettsiden min. Merk at denne nettsiden er under vedlikehold, så ikke forvent altfor mye. Her er noe av det du kan finne på nettsiden: ",
+        "interests": "Mine interesser.",
+        "pics": "Bilder av meg, som det rett over teksten her.",
+        "experience": "Erfaringer og prestasjoner innenfor interessene mine.",
+        "api": "Min bruk av noen API-er til å vise noen tall her og der. Forhåpentligvis funker det.",
+        "conclusion": "Du kan finne alt ved å lete rundt i sidene!",
+        "language": "If you want to switch language to English, click the flag in the upper right corner."
+    }
+    
+}
