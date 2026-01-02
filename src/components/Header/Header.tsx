@@ -30,6 +30,7 @@ function Header() {
             <NavLink 
               to="/my-website/" 
               className={({isActive}) => isActive ? "headerLink active" : "headerLink"}
+              id="homeButton"
             > 
                 <img className="headerIcon" src={homeIcon} />
                 {t("header.home")}

@@ -10,14 +10,18 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    background-color: var(--header-background);
+    background-color: var(--header-background-color);
+}
+
+#homeButton {
+    background-color: var(--accent-color);
 }
 
 .headerLink {
     all: unset;
     cursor: pointer;
     
-    background-color: var(--second-background);
+    background-color: var(--second-background-color);
     width: calc(100% / sibling-count());
     height: 94%;
 
@@ -31,7 +35,7 @@
 }
 
 .headerLink.active {
-    background-color: var(--page-background);
+    background-color: var(--page-background-color);
 }
 
 .headerLink img {
