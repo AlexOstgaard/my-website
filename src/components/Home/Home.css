@@ -1,6 +1,6 @@
 #homeContainer {
     width: 100%;
-    background-color: var(--page-background-color);
+    background: linear-gradient(to bottom, var(--accent-color) 0%, var(--page-background-color) 50%);
     box-sizing: border-box;
     overflow-x: hidden;
     color: var(--text-color);
@@ -11,6 +11,9 @@
     width: 40%;
     border: 7px solid var(--header-background-color);
     border-radius: 20px;
+}
+.accent {
+    color: var(--accent-text-color);
 }
 
 p {

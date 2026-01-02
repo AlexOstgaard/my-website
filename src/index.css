@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -14,7 +22,8 @@
   --page-background-color: #303070;
   --second-background-color: #242455;
   --text-color: #D0D0F0;
-  --accent-color: #707030;
+  --accent-color: #703050;
+  --accent-text-color: #F0B0D0;
 
   background-color: var(--page-background-color);
   color: var(--text-color);

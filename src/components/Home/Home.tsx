@@ -14,9 +14,10 @@ function Home() {
         <div id="homeContainer">
             <br />
             <img src={wideProfile} alt="Mitt bilde" id="wideProfile" />
-            <h1>{t("home.welcome")}</h1>
+            <h1 className="accent">{t("home.welcome")}</h1>
             <p>
-                {t("home.welcomeParagraph")} <u>{t("home.someInterests")}</u>
+                {t("home.welcomeParagraph")} 
+                <span className="accent">{t("home.someInterests")}</span>
                 <br />
                 &rarr; {t("home.interests")}
                 <br />

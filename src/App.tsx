@@ -16,7 +16,6 @@ function App() {
       <Header />
       <Routes>
         <Route path='/my-website/' element={<Home />}/>
-        <Route path='/my-website/Home' element={<Home />}/>
         <Route path='/my-website/Studies' element={<Studies />}/>
         <Route path='/my-website/Sports' element={<Sports />}/>
         <Route path='/my-website/Music' element={<Music />}/>

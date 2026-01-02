@@ -33,7 +33,7 @@ function Header() {
               id="homeButton"
             > 
                 <img className="headerIcon" src={homeIcon} />
-                {t("header.home")}
+                <span>{t("header.home")}</span>
             </NavLink>
 
 
@@ -42,7 +42,7 @@ function Header() {
               className={({isActive}) => isActive ? "headerLink active" : "headerLink"}
             >
                 <img className="headerIcon" src={studyIcon} />
-                {t("header.studies")}
+                <span>{t("header.studies")}</span>
             </NavLink>
 
             <NavLink 
@@ -50,7 +50,7 @@ function Header() {
               className={({isActive}) => isActive ? "headerLink active" : "headerLink"}
             >
                 <img className="headerIcon" src={sportIcon} />
-                {t("header.sports")}
+                <span>{t("header.sports")}</span>
             </NavLink>
 
 
@@ -59,7 +59,7 @@ function Header() {
               className={({isActive}) => isActive ? "headerLink active" : "headerLink"}
             >
                 <img className="headerIcon" src={musicIcon} />
-                {t("header.music")}
+                <span>{t("header.music")}</span>
             </NavLink>
 
 
@@ -68,7 +68,7 @@ function Header() {
               className={({isActive}) => isActive ? "headerLink active" : "headerLink"}
             >
                 <img  className="headerIcon" src={contactIcon} />
-                {t("header.contact")}
+                <span>{t("header.contact")}</span>
             </NavLink>
                 
 
