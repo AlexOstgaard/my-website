@@ -28,7 +28,7 @@ function Header() {
         <div id="background">
         
             <NavLink 
-              to="/my-website/" 
+              to="/" 
               className={({isActive}) => isActive ? "headerLink active" : "headerLink"}
               id="homeButton"
             > 
@@ -38,7 +38,7 @@ function Header() {
 
 
             <NavLink 
-              to="/my-website/Studies" 
+              to="/studies" 
               className={({isActive}) => isActive ? "headerLink active" : "headerLink"}
             >
                 <img className="headerIcon" src={studyIcon} />
@@ -46,7 +46,7 @@ function Header() {
             </NavLink>
 
             <NavLink 
-              to="/my-website/Sports" 
+              to="/sports" 
               className={({isActive}) => isActive ? "headerLink active" : "headerLink"}
             >
                 <img className="headerIcon" src={sportIcon} />
@@ -55,7 +55,7 @@ function Header() {
 
 
             <NavLink 
-              to="/my-website/Music" 
+              to="/music" 
               className={({isActive}) => isActive ? "headerLink active" : "headerLink"}
             >
                 <img className="headerIcon" src={musicIcon} />
@@ -64,7 +64,7 @@ function Header() {
 
 
             <NavLink 
-              to="/my-website/Contact" 
+              to="/contact" 
               className={({isActive}) => isActive ? "headerLink active" : "headerLink"}
             >
                 <img  className="headerIcon" src={contactIcon} />

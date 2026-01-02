@@ -19,11 +19,12 @@
 }
 
 #homeButton {
-    background-color: var(--accent-color);
     font-weight: 700;
-}
-#homeButton::after {
     background-color: var(--accent-color);
+}
+
+#homeButton::after {
+    background-color: var(--dark-accent-color);
 }
 
 .headerLink {
@@ -66,7 +67,7 @@
 }
 
 .headerLink img {
-    height: 50%;
+    height: 25px;
     margin-right: 5%;
 }
 
@@ -93,12 +94,12 @@
 }
 
 #languages button img {
-    width: 60%;
-    opacity: 75%;
+    width: 45px;
+    opacity: 67%;
 }
 
 #languages button.active img {
-    border: 2px solid var(--text-color);
-    border-radius: 7px;
+    outline: 2px solid var(--text-color);
+    border-radius: 5px;
     opacity: 100%;
 }

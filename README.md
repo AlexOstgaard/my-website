@@ -34,5 +34,6 @@ npm run dev
 
 5. Check out the website by using the link:
 ```
-http://localhost:5173/
+http://localhost:5173/my-website
 ```
+Note that 'my-website' is a part of the URL here, since this is a basename in the routing in <b>App.tsx</b>.

@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
@@ -12,16 +12,16 @@ import Contact from './components/Contact/Contact'
 function App() {
 
   return (
-    <Router>
+    <BrowserRouter basename="/my-website">
       <Header />
       <Routes>
-        <Route path='/my-website/' element={<Home />}/>
-        <Route path='/my-website/Studies' element={<Studies />}/>
-        <Route path='/my-website/Sports' element={<Sports />}/>
-        <Route path='/my-website/Music' element={<Music />}/>
-        <Route path='/my-website/Contact' element={<Contact />}/>
+        <Route path='/' element={<Home />}/>
+        <Route path='/studies' element={<Studies />}/>
+        <Route path='/sports' element={<Sports />}/>
+        <Route path='/music' element={<Music />}/>
+        <Route path='/contact' element={<Contact />}/>
       </Routes>
-    </Router>
+    </BrowserRouter>
   )
 }
 
