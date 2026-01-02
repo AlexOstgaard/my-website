@@ -28,7 +28,7 @@ function Header() {
         <div id="background">
         
             <NavLink 
-              to="/my-website/Home" 
+              to="/my-website/" 
               className={({isActive}) => isActive ? "headerLink active" : "headerLink"}
             > 
                 <img className="headerIcon" src={homeIcon} />
