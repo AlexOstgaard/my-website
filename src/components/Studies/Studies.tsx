@@ -1,3 +1,4 @@
+import "./Studies.css"
 
 import { useTranslation } from "react-i18next"
 
@@ -7,7 +8,18 @@ function Studies() {
     
     
     return (
-        <h4>{t("maintenance")}</h4>
+        <div className="pageContent">
+            <div className="pageBackground" id="studiesLeft"/>
+
+
+            <div className="pageCenter">
+                <h4>{t("maintenance")}</h4>
+            </div>
+
+
+
+            <div className="pageBackground" id="studiesRight" />
+        </div>
     )
 }
 

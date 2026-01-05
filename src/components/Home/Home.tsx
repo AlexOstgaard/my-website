@@ -32,9 +32,6 @@ function Home() {
                 <br />
                 <br />
                 <i>{t("home.language")}</i>
-                <br />
-                <br />
-                <br />
             </p>
         </div>
     )

@@ -18,21 +18,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+
+  /* Color theme: */
   --header-background-color: #181830;
   --page-background-color: #303070;
-  --second-background-color: #242455;
-  --text-color: #D0D0F0;
+  
   --accent-color: #703050;
   --dark-accent-color: #501030;
+
+  --text-color: #D0D0F0;
   --accent-text-color: #F0B0D0;
 
   background-color: var(--page-background-color);
   color: var(--text-color);
-
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
 }

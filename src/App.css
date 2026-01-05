@@ -1,5 +1,28 @@
 #root {
   text-align: center;
-  width: 100%;
 }
 
+.pageContent {
+    width: 100%;
+    min-height: calc(100vh - 50px);
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.pageBackground {
+    width: 8%;
+    content: "";
+    inset: 0;
+    
+    background-color: var(--page-background-color);
+
+    background-size: 50px, cover;
+}
+
+.pageCenter {
+    margin: 20px;
+    width: 75%;
+}

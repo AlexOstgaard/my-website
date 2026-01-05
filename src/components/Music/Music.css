@@ -1,0 +1,11 @@
+#musicLeft {
+    background-image: 
+        url('../../assets/backgroundIcons/musicL.svg'),
+        linear-gradient(to right, var(--header-background-color) 0%, var(--page-background-color) 100%);
+}
+
+#musicRight {
+    background-image: 
+        url('../../assets/backgroundIcons/musicR.svg'),
+        linear-gradient(to left, var(--header-background-color) 0%, var(--page-background-color) 100%);
+}

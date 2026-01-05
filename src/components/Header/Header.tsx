@@ -25,12 +25,11 @@ function Header() {
 
     return (
 
-        <div id="background">
+        <div id="headerBackground">
         
             <NavLink 
               to="/" 
-              className={({isActive}) => isActive ? "headerLink active" : "headerLink"}
-              id="homeButton"
+              className={({isActive}) => isActive ? "headerLink homeActive" : "headerLink homeInactive"}
             > 
                 <img className="headerIcon" src={homeIcon} />
                 <span>{t("header.home")}</span>
