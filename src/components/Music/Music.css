@@ -8,4 +8,5 @@
     background-image: 
         url('../../assets/backgroundIcons/musicR.svg'),
         linear-gradient(to left, var(--header-background-color) 0%, var(--page-background-color) 100%);
+        background-position: right top;
 }

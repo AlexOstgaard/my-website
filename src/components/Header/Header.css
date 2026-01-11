@@ -48,9 +48,11 @@
     align-items: center;
 
     background-color: var(--background-color);
+
     font-family: 'Lato';
     color: var(--text-color);
     letter-spacing: 1.3px;
+    font-size: clamp(12px, 2vw, 16px);
 }
 
 .headerLink::after {
@@ -103,12 +105,12 @@
 }
 
 #languages button img {
-    width: 45px;
+    width: clamp(20px, 3vw, 40px);
     opacity: 67%;
 }
 
 #languages button.active img {
     outline: 2px solid var(--text-color);
-    border-radius: 5px;
+    border-radius: 4px;
     opacity: 100%;
 }

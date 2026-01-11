@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
@@ -12,7 +12,8 @@ import Contact from './components/Contact/Contact'
 function App() {
 
   return (
-    <BrowserRouter basename="/my-website">
+    //Using HashRouter here in order to be able to refresh on github pages properly. 
+    <HashRouter basename="/my-website">
       <Header />
       <Routes>
         <Route path='/' element={<Home />}/>
@@ -21,7 +22,7 @@ function App() {
         <Route path='/music' element={<Music />}/>
         <Route path='/contact' element={<Contact />}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
