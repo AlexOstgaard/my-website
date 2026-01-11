@@ -12,7 +12,6 @@ import Contact from './components/Contact/Contact'
 function App() {
 
   return (
-    //Using HashRouter here in order to be able to refresh on github pages properly. 
     <BrowserRouter basename="/my-website">
       <Header />
       <Routes>
