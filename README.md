@@ -36,4 +36,4 @@ npm run dev
 ```
 http://localhost:5173/my-website
 ```
-Note that 'my-website' is a part of the URL here, since this is a basename in the routing in <b>App.tsx</b>.
+Note that 'my-website' is a part of the URL here, even though Vite might tell you otherwise, since this is a basename in the routing in <b>App.tsx</b>.
