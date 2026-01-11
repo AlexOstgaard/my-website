@@ -19,6 +19,10 @@
         "language": "If you want to switch language to English, click the flag in the upper right corner."
     },
 
+    "contact": {
+        "header": "Ta kontakt med meg!"
+    },
+
     "maintenance": "Kom tilbake senere for å se innholdet på denne siden. Hvis du vil minne meg på å oppdatere noe, så kan du det via alexostgaard@gmail.com."
     
 }

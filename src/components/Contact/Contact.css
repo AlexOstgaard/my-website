@@ -10,3 +10,51 @@
         linear-gradient(to left, var(--header-background-color) 0%, var(--page-background-color) 100%);
         background-position: right top;
 }
+
+
+.contactInfoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 50px;
+}
+
+.profilePic {
+    height: 250px;
+    border: 7px solid var(--header-background-color);
+    border-radius: 20px;
+}
+
+.profiles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+.profiles a {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 50px;
+    
+}
+
+.profiles a h3 {
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+
+.contactIcon {
+    height: 40px;
+    background-color: var(--header-background-color);
+
+
+    border: 3px solid var(--header-background-color);
+    border-radius: 5px;
+}
