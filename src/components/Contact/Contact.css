@@ -44,7 +44,7 @@
 }
 
 .profiles a h3 {
-    color: var(--text-color);
+    color: var(--accent-text-color);
     font-weight: 400;
 }
 
