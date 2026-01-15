@@ -17,7 +17,9 @@
     flex-direction: row;
     justify-content: space-around;
 
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .profilePic {
@@ -32,16 +34,13 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    
 }
 
 .profiles a {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 50px;
-    margin-left: 50px;
-    
 }
 
 .profiles a h3 {
@@ -57,4 +56,56 @@
 
     border: 3px solid var(--header-background-color);
     border-radius: 5px;
+}
+
+.contactFormContainer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactFormContainer label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.contactFormContainer input,
+.contactFormContainer textarea {
+    background-color: var(--header-background-color);
+    margin-top: 5px;
+    padding: 10px;
+    
+    border-radius: 8px;
+    border: 2px solid var(--header-background-color);
+    
+    font-family: 'Lato';
+}
+.contactFormContainer textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contactFormContainer button {
+    cursor: pointer;
+    background-color: var(--accent-color);
+    padding: 12px 25px;
+
+    color: white;
+    font-weight: 700;
+    
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.contactFormContainer button:hover {
+    transform: scale(1.05);
+    background-color: var(--dark-accent-color);
+}
+
+.optional {
+    font-weight: 400;
+    opacity: 0.6;
 }

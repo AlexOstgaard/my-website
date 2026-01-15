@@ -20,7 +20,14 @@
     },
 
     "contact": {
-        "info": "Get in touch with me!"
+        "header": "Get in touch with me!",
+        "mailingHeader": "*You can also reach out using the mailing-form I made!",
+        "optional": "optional",
+        "name":  "Your name",
+        "email": "Your email-adress",
+        "subject": "Subject of the email",
+        "message": "Write your message here",
+        "send": "Send the email"
     },
 
     "maintenance": "Come back later to check out the content of this page. You are welcome to send me a reminder to keep making updates, at alexostgaard@gmail.com."

@@ -20,7 +20,14 @@
     },
 
     "contact": {
-        "header": "Ta kontakt med meg!"
+        "header": "Ta kontakt med meg!",
+        "mailingHeader": "Du kan også nå meg ved å bruke mailing-skjemaet jeg har laget!",
+        "optional": "valgfritt",
+        "name": "Ditt navn",
+        "email": "Din email-adresse",
+        "subject": "Emnet for emailen",
+        "message": "Skriv meldingen din her",
+        "send": "Send emailen"
     },
 
     "maintenance": "Kom tilbake senere for å se innholdet på denne siden. Hvis du vil minne meg på å oppdatere noe, så kan du det via alexostgaard@gmail.com."
